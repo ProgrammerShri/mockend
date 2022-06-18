@@ -1,10 +1,27 @@
 {
   "Post": {
-    "id": "1",
-    "title": "Hello World",
-    "body": "This is my first post",
-    "author": "1",
-    "comments": ["1", "2"]
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "comments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   },
   "Comment": {
     "body": "string",
