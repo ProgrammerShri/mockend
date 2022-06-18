@@ -1,13 +1,26 @@
-{
-  "User": {
-    "name": {
-      "string": ["Benedict Dyer", "Kelsie Compton", "Brianna Andrews", "Ralph Willis", "Hollee Christensen", "John Doe", "Jane Dane"]
-    },
-    "age": {
-      "int": [30, 35, 40, 20, 45, 25, 55]
-    },
-    "department": {
-      "string": ["COE", "NET", "DOM"]
-    }
+[
+  {
+    "age": 20,
+    "department": "NET",
+    "id": 1,
+    "name": "Benedict Dyer"
+  },
+  {
+    "age": 40,
+    "department": "NET",
+    "id": 2,
+    "name": "Benedict Dyer"
+  },
+  {
+    "age": 30,
+    "department": "DOM",
+    "id": 3,
+    "name": "Benedict Dyer"
+  },
+  {
+    "age": 35,
+    "department": "COE",
+    "id": 4,
+    "name": "Hollee Christensen"
   }
-}
+  ]
