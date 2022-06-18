@@ -1,7 +1,10 @@
 {
   "Post": {
-    "title": "string",
-    "views": "int"
+    "id": "1",
+    "title": "Hello World",
+    "body": "This is my first post",
+    "author": "1",
+    "comments": ["1", "2"]
   },
   "Comment": {
     "body": "string",
