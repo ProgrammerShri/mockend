@@ -1,74 +1,50 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1",
-      "description": "this is description 1"
+  "User": {
+    "name": {
+      "string": {
+        "S": "Profile 1",
+        "N": "Profile 1",
+        "B": "Profile 1",
+        "SS": ["Profile 1"],
+        "NS": ["Profile 1"],
+        "BS": ["Profile 1"],
+        "M": {
+          "M": {
+            "Profile 1": {
+              "S": "Profile 1",
+              "N": "Profile 1",
+              "B": "Profile 1",
+              "SS": ["Profile 1"],
+              "NS": ["Profile 1"],
+              "BS": ["Profile 1"]
+            }
+          }
+        }
+      }
     },
-    {
-      "id": 2,
-      "title": "Post 2",
-      "description": "this is description 2"
+    "avatarUrl": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
-    {
-      "id": 3,
-      "title": "Post 3",
-      "description": "this is description 3"
+    "statusMessage": {
+      "string": [
+        "working from home",
+        "watching Netflix"
+      ]
+    },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "color": {
+      "regexp": "#[0-9A-F]{6}"
+    },
+    "age": {
+      "int": {
+        "min": 21,
+        "max": 100
+      }
+    },
+    "isPublic": {
+      "boolean": {}
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "comment 1",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "Profile 1"
   }
 }
