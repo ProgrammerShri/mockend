@@ -1,20 +1,16 @@
 {
   "Post": {
     "id": {
-      "type": "string",
-      "required": true
+      "value": "1"
     },
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "body": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "author": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "comments": {
       "type": "array",
