@@ -1,10 +1,7 @@
 {
   "User": {
     "title": {
-      "string": {
-        "en": "User",
-        "de": "Benutzer"
-      }
+      "string": { "value": "User" }
     }
   }
 }
